@@ -1,0 +1,24 @@
+{
+  "name": "final-chat-app_ReactNative",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgtbelly/final-chat-app_ReactNative.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgtbelly/final-chat-app_ReactNative/issues"
+  },
+  "homepage": "https://github.com/sgtbelly/final-chat-app_ReactNative#readme",
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-native": "^0.58.4"
+  }
+}
