@@ -3,8 +3,10 @@ import io from 'socket.io-client';
 import Moniker from '../moniker/moniker.js';
 import Rooms from '../rooms/rooms.js';
 import If from '../if/if.js';
+
 const url = 'http://localhost:3000';
 const socket = io.connect(url);
+
 class Chatter extends React.Component {
     constructor(props) {
         super(props);
