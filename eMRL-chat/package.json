@@ -5,11 +5,28 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "eject": "expo eject",
-    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll",
+    "start-react": "react-scripts start",
+    "build": "react-scripts build",
+    "test-react": "react-scripts test",
+    "eject-react": "react-scripts eject"
   },
+
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+
   "jest": {
     "preset": "jest-expo"
   },
+
   "dependencies": {
     "@expo/samples": "2.1.1",
     "expo": "^32.0.0",
@@ -17,9 +34,11 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
     "react-navigation": "^3.0.9"
   },
+
   "devDependencies": {
     "babel-preset-expo": "^5.0.0",
     "jest-expo": "^32.0.0"
   },
+
   "private": true
 }
